@@ -18,7 +18,7 @@ function DisplayImage({ uploadedImage, colorPalette }) {
         {uploadedImage ? (
           <img src={uploadedImage} alt="uploaded" />
         ) : (
-          <h2>Put An Image Here...</h2>
+          <h2>upload dulu bro...</h2>
         )}
       </div>
 

@@ -10,38 +10,21 @@
   margin: 0;
 }
 
-body {
-  font-family: "Poppins", sans-serif;
-
-  height: 100vh;
-  background: #1e1e1e;
-  font-size: 1.2rem;
-  color: #6c7983;
-}
-
 header {
   padding: 1rem 4rem;
   width: 100%;
   min-height: 10vh;
-  background: #262626;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
-  border-bottom: 2px solid var(--border);
 
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 3rem;
 }
 
 header h1 {
-  font-family: "M PLUS Rounded 1c", sans-serif;
   font-size: 2.5rem;
   font-weight: 800;
-
-  background: linear-gradient(110.42deg, #cf57a3 29.2%, #27ae60 63.56%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-shadow: 0 5px 6px rgba(0, 0, 0, 0.1);
 }
 
 header .input {
@@ -53,7 +36,6 @@ header .input {
 .input label {
   padding: 0.5rem 2rem;
   border-radius: 0.5rem;
-  border: 2px solid var(--border);
   cursor: pointer;
 
   display: flex;
@@ -74,15 +56,8 @@ header .input {
   align-items: center;
   justify-content: center;
 
-  border: 2px solid var(--border);
-  border-radius: 0.5rem;
-
   overflow: hidden;
   transition: all 0.2s ease-in-out;
-}
-
-.image:hover {
-  box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.13);
 }
 
 .image img {

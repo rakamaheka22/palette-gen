@@ -4,8 +4,6 @@ import DisplayImage from "@/Components/DisplayImage";
 import ColorThief from "colorthief";
 import { useState } from "react";
 
-const gallery = <i className="fas fa-images"></i>;
-
 export default function Home() {
   //state
   const [uploadedImage, setUploadedImage] = useState(null);
@@ -49,10 +47,10 @@ export default function Home() {
       </Head>
 
       <header>
-        <h1>Palette Gen</h1>
+        <h1>ini del contohnya</h1>
 
         <div className="input">
-          <label htmlFor="file">{gallery} Upload Image</label>
+          <label htmlFor="file">Upload Image</label>
           <input type="file" id="file" hidden onChange={uploadImage} />
         </div>
       </header>

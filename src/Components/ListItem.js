@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import styles from "../styles/Home.module.css";
 
-const copy = <i className="far fa-copy"></i>;
-
 function ListItem({ rgb, hex }) {
   const [copied, setCopied] = useState(false);
 
@@ -23,7 +21,7 @@ function ListItem({ rgb, hex }) {
           }, 1000);
         }}
       >
-        {copied ? "Copied!" : hex} {copy}
+        {copied ? "Copied!" : hex}
       </span>
     </li>
   );
